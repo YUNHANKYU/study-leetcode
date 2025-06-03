@@ -11,7 +11,10 @@ This repository contains my solutions to various algorithm problems, organized b
   - [Best Time to Buy and Sell Stock](dp/maxProfit.py)
 
 - **Math**
-  - [FizzBuzz](math/fizzbuzz.py)
+  - [Count Primes](math/countPrime.py) - Count the number of prime numbers less than a non-negative number.
+  - [FizzBuzz](math/fizzbuzz.py) - Classic FizzBuzz problem implementation.
+  - [Is Power of Three](math/isPowerOfThree.py) - Check if a given integer is a power of three.
+  - [Roman to Integer](math/romanToInteger.py) - Convert Roman numerals to integer with multiple approaches.
 
 ## Purpose
 
