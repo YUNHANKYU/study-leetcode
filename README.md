@@ -16,6 +16,9 @@ This repository contains my solutions to various algorithm problems, organized b
   - [Is Power of Three](math/isPowerOfThree.py) - Check if a given integer is a power of three.
   - [Roman to Integer](math/romanToInteger.py) - Convert Roman numerals to integer with multiple approaches.
 
+- **Linked List**
+  - [Cycle Detection](linked-list/cycle.py) - Detect cycles in a linked list using two approaches: node storage and Floyd's Tortoise and Hare algorithm.
+
 ## Purpose
 
 This repository serves as a personal collection of algorithm implementations that I've worked on to improve my problem-solving skills and understanding of different algorithms and data structures.
