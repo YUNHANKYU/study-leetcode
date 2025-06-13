@@ -4,8 +4,11 @@ This repository contains my solutions to various algorithm problems, organized b
 
 ## Categories
 
-- **Dynamic Programming (DP)**
+- **Array & String**
+  - [Merge Strings Alternately](array-string/mergeAlternately.py) - Merge two strings by adding letters in alternating order.
+  - [Greatest Common Divisor of Strings](array-string/greatestCommonDevisor.py) - Find the largest string that divides both input strings.
 
+- **Dynamic Programming (DP)**
   - [Maximum Subarray](dp/maxSubArray.py)
   - [House Robber](dp/houseRob.py)
   - [Best Time to Buy and Sell Stock](dp/maxProfit.py)
