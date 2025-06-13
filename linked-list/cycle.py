@@ -45,12 +45,25 @@ def hasCycleFloyd(head: [ListNode]) -> bool:
         return False
     slow = head
     fast = head
+    has_cycle = False
     while fast != None and fast.next != None:
         slow = slow.next
         fast = fast.next.next
         if slow == fast:
-            return True
-    return False
+            has_cycle = True
+            break
+    if not has_cycle:
+        return False
+
+    slow = head
+    count = 0
+    while slow != fast:
+        print('slow_value: {}, fast_value: {}'.format(slow.val, fast.val))
+        slow = slow.next
+        fast = fast.next
+        count += 1
+    print(count)
+    return True
 
 
 node4 = ListNode(-4)
